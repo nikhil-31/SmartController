@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">fyp_lights</string>
+    <string name="listlights">Light Switches</string>
+    <string name="switch1">Switch 1</string>
+    <string name="switch2">Switch 2</string>
+    <string name="switch3">Switch 3</string>
+    <string name="switch4">Switch 4</string>
+    <string name="switch5">Switch 5</string>
+    <string name="switch6">Switch 6</string>
+    <string name="switch7">Switch 7</string>
+    <string name="switch8">Switch 8</string>
+
+    <string-array name="arraylights">
+        <item>@string/switch1</item>
+        <item>@string/switch2</item>
+        <item>@string/switch3</item>
+        <item>@string/switch4</item>
+        <item>@string/switch5</item>
+        <item>@string/switch6</item>
+        <item>@string/switch7</item>
+        <item>@string/switch8</item>
+
+    </string-array>
+
+</resources>
