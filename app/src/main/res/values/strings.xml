@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">fyp_lights</string>
+    <string name="app_name">SmartController</string>
     <string name="listlights">Light Switches</string>
     <string name="switch1">Switch 1</string>
     <string name="switch2">Switch 2</string>
