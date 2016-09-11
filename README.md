@@ -1,4 +1,6 @@
-# fyp_lights
+# SmartController
+
+##Overview
 An android application that controls the lights of the home.
 
 Part of my final year project on home automation. 
@@ -23,8 +25,7 @@ the server makes the corresponding GPIO pin of the raspberry pi HIGH/LOW. This a
 the relay which turns the relay ON/OFF. The hardware is interfaced with the relay and it acts as a switch. 
 When the switch is turned ON the circuit is closed and the corresponding device will turn ON.
 
-#License
-Copyright 2016 Nikhil Bhaskar
+##License
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -37,3 +38,5 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+####Copyright 2016 Nikhil Bhaskar
+
