@@ -6,8 +6,9 @@ The application is used to control devices in the house like lights, fans, garag
 
 The android application has buttons to turn the lights ON/OFF. Upon clicking a button on it sends a HTTP REST API request to the server. The request is sent to through the domain of the router that the raspberry pi 2 model B is connected.
 
-The server called webiopi is running on the raspberry pi 2 model B, the server runs on the physical port 8000 on the local network. The server has an inbuilt HTTP REST API. The router is constantly updating its IP address to a dynamic domain name service called no-ip. The service will provide a domain name to point to the router over the internet. When the application makes the HTTP POST request to the server, the server makes the corresponding GPIO pin of the raspberry pi HIGH/LOW. This acts as a control pulse for 
-the relay which turns the relay ON/OFF. The devices are interfaced with the relay and it acts as a switch. When the switch is turned ON the circuit is closed and the corresponding device will turn ON.
+The server called webiopi is running on the raspberry pi 2 model B, the server runs on the physical port 8000 on the local network. The server has an inbuilt HTTP REST API. The router is constantly updating its IP address to a dynamic domain name service called no-ip. When the application makes the HTTP POST request to the server, the server makes the corresponding GPIO pin of the raspberry pi HIGH/LOW. 
+
+This acts as a control pulse for the relay which turns the relay ON/OFF. The devices are interfaced with the relay and it acts as a switch. When the switch is turned ON the circuit is closed and the corresponding device will turn ON and vice versa.
 
 ##Screenshots
 ![smart1](https://cloud.githubusercontent.com/assets/19944703/18416727/c486640c-7839-11e6-94b7-ede95bdc6d3c.jpg)
