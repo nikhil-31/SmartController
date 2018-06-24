@@ -1,6 +1,6 @@
 # SmartController
 
-##Overview
+## Overview
 
 The application is used to control devices in the house like lights, fans, garage doors and many more.
 
@@ -10,7 +10,7 @@ The server called webiopi is running on the raspberry pi 2 model B, the server r
 
 This acts as a control pulse for the relay which turns the relay ON/OFF. The devices are interfaced with the relay and it acts as a switch. When the switch is turned ON the circuit is closed and the corresponding device will turn ON and vice versa.
 
-##Screenshots
+## Screenshots
 ![smart1](https://cloud.githubusercontent.com/assets/19944703/18416727/c486640c-7839-11e6-94b7-ede95bdc6d3c.jpg)
 
 ![screenshot_2016-09-11-16-08-32](https://cloud.githubusercontent.com/assets/19944703/18416741/16dcfdd8-783a-11e6-85d5-16f7a0a90d7d.png)
@@ -19,7 +19,7 @@ This acts as a control pulse for the relay which turns the relay ON/OFF. The dev
 
 
 
-##License
+## License
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
